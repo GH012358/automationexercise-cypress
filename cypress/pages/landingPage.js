@@ -5,5 +5,6 @@ export default class LandingPage {
     elementVisualKey = () => cy.contains('h2', 'Full-Fledged practice website for Automation Engineers')
 
     buttonSignup = () => cy.contains('a', 'Signup / Login', { matchCase: false })
+    buttonContact = () => cy.contains('a', 'Contact us', { matchCase: false })
 
 }
