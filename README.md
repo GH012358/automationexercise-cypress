@@ -11,7 +11,7 @@ implemented with [Cypress](https://www.cypress.io/) using the Page Object Model 
 - Page Object Model (POM)
 
 ## Project structure
-
+```text
 cypress/
  ├─ e2e/                 # Test specs (one file per test case or group)
  │   ├─ createAccount.cy.js
