@@ -6,5 +6,6 @@ export default class LandingPage {
 
     buttonSignup = () => cy.contains('a', 'Signup / Login', { matchCase: false })
     buttonContact = () => cy.contains('a', 'Contact us', { matchCase: false })
+    buttonTestCases = () => cy.contains('a', 'Test Cases', { matchCase: false })
 
 }

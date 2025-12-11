@@ -1,12 +1,13 @@
 {
-  "name": "sampleproject",
+  "name": "automationexercise-cypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "End-to-end Cypress test suite for automationexercise.com using Page Object Model.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
-  "author": "",
+  "author": "Garik Harutyunyan",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^15.6.0"
