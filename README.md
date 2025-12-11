@@ -12,6 +12,7 @@ implemented with [Cypress](https://www.cypress.io/) using the Page Object Model 
 
 ## Project structure
 ```text
+
 cypress/
  ├─ e2e/                 # Test specs (one file per test case or group)
  │   ├─ createAccount.cy.js
@@ -43,6 +44,8 @@ cypress/
  │
  └─ fixtures/
      └─ sample.pdf       # Dummy file used for Contact Us file upload
+
+```
 
 ## Implemented test cases
 
